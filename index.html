@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Escolha seu personagem - DBZ</title>
+    <link rel="stylesheet" href="./src/css/variaveis.css"/>
+    <link rel="stylesheet" href="./src/css/reset.css"/>
+    <link rel="stylesheet" href="./src/css/fontes.css"/>
+    <link rel="stylesheet" href="./src/css/animacoes.css"/>
+    <link rel="stylesheet" href="./src/css/estilos.css"/>
+    <link rel="stylesheet" href="./src/css/responsivo.css"/>
+</head>
+<body>
+    <section>
+        <audio autoplay="autoplay" loop>
+            <source src="./src/audio/Dragon_Ball_Z_-_Abertura_em_Português_BR_-_ver._2013_-_We_Gotta_Power.mp3" type="audio/mp3"/>
+            Seu navegador não suporta HTML5, alguns atributos da página (como o áudio) podem não ser devidamente reproduzidos.
+        </audio>
+    </section>
+    <main>
+        <header class="cabecalho">
+            <h1 class="titulo">
+                Character select
+            </h1>
+        </header>
+        <div class="selecao-de-personagens">
+            <div class="personagem-grande player1">
+                <img src="./src/imagens/Goku.png" alt="Personagem selecionado jogador 1" id="player1">
+                <div class="nome">
+                    <h2 id="nome-player1">Goku</h2>
+                </div>
+            </div>
+
+            <ul class="lista-de-personagens">
+                <li class="personagem selecionado" id="Goku" data-name="Goku">
+                    <span class="tag">1P</span>
+                    <img src="./src/imagens/GokuAvatar.png" alt="Personagem Goku">
+                </li>
+
+                <li class="personagem" id="Trunks" data-name="Trunks">
+                    <span class="tag">1P</span>
+                    <img src="./src/imagens/TrunksAvatar.png" alt="Personagem Trunks do futuro">
+                </li>
+
+                <li class="personagem" id="Piccolo" data-name="Piccolo">
+                    <span class="tag">1P</span>
+                    <img src="./src/imagens/PiccoloAvatar.jpg" alt="Personagem Piccolo">
+                </li>
+
+                <li class="personagem" id="Cell" data-name="Cell">
+                    <span class="tag">1P</span>
+                    <img src="./src/imagens/CellAvatar.jpg" alt="Personagem Cell">
+                </li>
+
+                <li class="personagem" id="MajinBuu1" data-name="Majin Buu 1">
+                    <span class="tag">1P</span>
+                    <img src="./src/imagens/MajinBuu1Avatar.jpg" alt="Personagem Majin Buu">
+                </li>
+
+                <li class="personagem" id="MajinBuu2" data-name="Majin Bull 2">
+                    <span class="tag">1P</span>
+                    <img src="./src/imagens/MajinBuu2Avatar.jpg" alt="Personagem Majin Buu 2">
+                </li>
+
+                <li class="personagem" id="Gohan" data-name="Gohan">
+                    <span class="tag">1P</span>
+                    <img src="./src/imagens/GohanAvatar.jpg" alt="Personagem Gohan">
+                </li>
+                
+                <li class="personagem" id="KidTrunks" data-name="Kid Trunks">
+                    <span class="tag">1P</span>
+                    <img src="./src/imagens/KidTrunksAvatar.png" alt="Kid Trunks">
+                </li>
+
+                <li class="personagem player2-selecionado" id="Vegeta" data-name="Vegeta">
+                    <span class="tag">2P</span>
+                    <img src="./src/imagens/VegetaAvatar.png" alt="Personagem Vegeta">
+                </li>                
+            </ul>
+        
+            <div class="personagem-grande player2">
+                <img src="./src/imagens/Vegeta.png" alt="Personagem selecionado jogador 2"
+                id="player2">
+                <div class="nome">
+                    <h2>Vegeta</h2>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="./src/js/index.js"></script>
+</body>
+</html>
